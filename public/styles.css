@@ -1,0 +1,256 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+html,body {
+  font-family: "Montserrat", sans-serif;
+  padding: 0 10px;
+  height: 100vh;
+  margin: 0;
+}
+.grid-container{
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-columns: 1fr;
+  height: 100%;
+}
+header {
+  background-color: #222831;
+  margin: auto -16px;
+  padding: 0.5rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+main {
+  grid-area: main;
+}
+footer {
+  grid-area: footer;
+  background-color: #203040;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1rem;
+}
+
+header h1 {
+  color: #fff;
+  font-family: "Lobster", cursive;
+  font-weight: 200;
+  font-size: 250%;
+  margin-bottom:0px;
+}
+.navbar-nav{
+    margin-left: 400px;
+    font-size: 125%;
+}
+
+.navbar-nav > li{
+  padding-left:25px;
+  padding-right:25px;
+}
+
+.item{
+  color:white;
+}
+
+.row{
+  padding:5px;
+}
+.women-col {
+  background: url('https://img.wallpapersafari.com/desktop/1920/1080/82/72/WJ4AoT.jpg') no-repeat;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  height: 300px;
+  margin-top: 5px;
+}
+
+.men-col {
+background: url('https://www.wallpaperflare.com/static/69/690/367/jakob-wiechmann-top-fashion-male-models-model-man-wallpaper.jpg') no-repeat;
+-webkit-background-size: 100% auto;
+-moz-background-size: 100% auto;
+-o-background-size: 100% auto;
+background-size: 100% auto;
+height: 300px;
+margin-top: 5px;
+
+}
+
+.kids-col {
+  background: url('https://wallpapercave.com/wp/wp7044420.jpg') no-repeat;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  height: 300px;
+  margin-top: 5px;
+  }
+
+.accessories-col {
+    background: url('https://cdn.thecoolist.com/wp-content/uploads/2016/10/Mens-Accessories-dress-shoes-with-jeans-960x540.jpg') no-repeat;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    height: 300px;
+    margin-top: 5px;
+}
+  
+
+.item_women{
+  margin-top: 50px;
+  margin-left: 500px;
+  color:#ffffff
+}
+
+.item_men{
+  margin-top:50px;
+  margin-left:30px;
+  color:#ffffff
+}
+
+.item_kid{
+  margin-top: 50px;
+  margin-left: 500px;
+  color:#ffffff
+}
+
+.item_accessories{
+  margin-top:50px;
+  margin-left:30px;
+  color:#ffffff
+}
+
+.carousel{
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+.carousel-item{
+  height: 600px;
+}
+
+.subtitle {
+  letter-spacing: .1em;
+  line-height: 1.3em;
+  text-align:center;
+  font-family: "Lobster", cursive;
+  font-size: 400%;
+  color:green;
+  margin-top: 100px;
+}
+.countdown-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 -8px 0 -8px;
+}
+
+.time-section {
+  padding: 0px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgb(20, 17, 17) !important;
+  font: 50%;
+}
+
+.time {
+  font-size: 50px !important;
+  font-weight: 800 !important;
+}
+
+.time-text{
+  font-size: 10px;
+}
+.small {
+    font-size: 18px !important;
+}
+.text{
+  color:red;
+  text-align: center;
+  font-size:55px;
+  font-family: "Lobster", cursive;
+  letter-spacing: .1em;
+  line-height: 2.5em;
+}
+.img1 {
+  height: 500px;
+  width:715px;
+  margin-top: 5px;
+  margin-left: -400px;
+  padding-left: 10px;
+}
+.img2 {
+  height: 500px;
+  margin-top: 5px;
+  padding-right: 5px;
+
+}
+.container-image{
+  background:url('https://files.123freevectors.com/wp-content/original/24971-gray-bokeh-christmas-lights-background-graphics.jpg') no-repeat;
+  height: 500px;
+  width:500px;
+  margin-right:-35px;
+  margin-top:5px;
+
+}
+
+input {
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(15, 14, 14, 0.2);
+  width: 250px;
+  border-radius: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 15px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(78, 74, 74);
+  font-weight: 300;
+  align-items: center;
+}
+
+
+
+button {
+  background-color: rgb(44, 37, 37);
+  border: 0;
+  padding: 10px 15px;
+  color: #50a3a2;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 18px;
+  align-items: center;
+}
+
+.container-register h1 {
+  font-size: 40px;
+  font-weight: 200;
+  ;
+}
+
+.container{
+  /* background-color: rgb(44, 37, 37); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  padding-bottom: 20%;
+  text-align: center;
+  
+}
